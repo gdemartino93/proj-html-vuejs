@@ -1,10 +1,11 @@
 <script>
-import AppHeader from './components/AppHeader.vue'
+import AppHeader from './components/AppHeader.vue';
 import AppJumbotron from './components/AppJumbotron.vue';
-
+import AppFeatures from './components/AppFeatures.vue';
+import Wave from './components/Wave.vue';
 export default {
   name : "App",
-  components : { AppHeader, AppJumbotron }
+  components : { AppHeader, AppJumbotron, AppFeatures, Wave }
 }
 </script>
 
@@ -13,6 +14,10 @@ export default {
     <AppHeader />
     <AppJumbotron />
   </header>
+  <Wave />
+  <main>
+    <AppFeatures />
+  </main>
 
 </template>
 
