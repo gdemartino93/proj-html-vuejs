@@ -15,8 +15,8 @@ data(){
 <template>
   <div class="container">
     <div class="row">
-        <div class="col-12 d-flex">
-            <div class="logo col-4 justify-content-center align-items-center">
+        <div class="col-12 d-flex align-items-center">
+            <div class="logo col-4 justify-content-center ">
                 <img src="../../public/img/logo-dark.png" alt="">
             </div>
             <ul class="col-4 d-flex justify-content-center align-items-center">
@@ -60,7 +60,7 @@ li{
     font-size: 15px;
     a{
         text-decoration: none;
-        color: grey;
+        color: $txt-deepgrey;
         font-weight: bold;
         
         &:hover{
