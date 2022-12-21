@@ -73,7 +73,7 @@ data(){
       text-decoration: none;
       color: $txt-blue;
    }
-   min-height: 90vh;
+
    span{
       color: $txt-darkgrey;
       a{
@@ -82,7 +82,6 @@ data(){
    }
    .plan{
       width: 300px;
-      height: 300px;
       display: flex;
       flex-direction: column;
       padding: 20px;

@@ -1,11 +1,12 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppJumbotron from './components/AppJumbotron.vue';
-import AppFeatures from './components/AppFeatures.vue';
+import AppFeaturesSection from './components/AppFeaturesSection.vue';
+import AppInstallSection from './components/AppInstallSection.vue';
 import Wave from './components/Wave.vue';
 export default {
   name : "App",
-  components : { AppHeader, AppJumbotron, AppFeatures, Wave }
+  components : { AppHeader, AppJumbotron, AppFeaturesSection, Wave, AppInstallSection }
 }
 </script>
 
@@ -16,7 +17,9 @@ export default {
   </header>
   <Wave />
   <main>
-    <AppFeatures />
+    <AppFeaturesSection />
+    <AppInstallSection />
+    
   </main>
 
 </template>
