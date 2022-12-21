@@ -11,7 +11,7 @@ data(){
 </script>
 
 <template>
-<div class="position-relative">
+<div class="wave">
         <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -29,6 +29,8 @@ data(){
 
 <style scoped lang="scss">
 @use '../styles/partials/variables' as *;
-
+.wave{
+    overflow-x: hidden;
+}
 
 </style>
