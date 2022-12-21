@@ -13,12 +13,12 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { faUser } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
-import { faMagnifyingGlass, faSquare } from '@fortawesome/free-solid-svg-icons'
+import {faLayerGroup, faMagnifyingGlass, faSquare,faMaximize, faExpand, faDesktop } from '@fortawesome/free-solid-svg-icons'
 
 
 
 /* add icons to the library */
-library.add(faUser,faStackOverflow,faGithub,faMagnifyingGlass,faSquare)
+library.add(faUser,faStackOverflow,faGithub,faMagnifyingGlass,faSquare,faLayerGroup,faMaximize,faExpand,faDesktop)
 
 
 createApp(App)
