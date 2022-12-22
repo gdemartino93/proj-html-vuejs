@@ -4,11 +4,7 @@ import JumboLogo from './JumboLogo.vue'
 export default {
     components:
     { JumboLogo },
-data(){
-   return{
-    //Aggiungere nav links
-   }
-},
+
 }
 
 
@@ -23,7 +19,7 @@ data(){
                 <span>Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page</span>
                 <div class="jumbo-btn col-12 my-3 ">
                     <a class="getstarted btn btn-primary col-4 " href="#" role="button">Get Started</a>
-                    <a class="documentation btn  col-6 mx-2" href="#" role="button">Documentation</a>
+                    <a class="documentation btn col-6 mx-2" href="#" role="button">Documentation</a>
                 </div>
                 <span class="align-self-start">Current Version v2.6.0</span>
             </div>
@@ -56,6 +52,10 @@ data(){
         .documentation{
             color: $txt-blue;
             border: 1px solid $border-blue;
+            &:hover{
+                background: $bg-blue;
+                color: white;
+            }
         }
     }
 }
