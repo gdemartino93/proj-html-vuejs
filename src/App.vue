@@ -6,9 +6,10 @@ import AppInstallSection from './components/AppInstallSection.vue';
 import Wave from './components/Wave.vue';
 import AppToolsSection from './components/AppToolsSection.vue';
 import AppPlansSection from './components/AppPlansSection.vue';
+import AppContact from './components/AppContact.vue';
 export default {
   name : "App",
-  components : { AppHeader, AppJumbotron, AppFeaturesSection, Wave, AppInstallSection,AppToolsSection,AppPlansSection}
+  components : { AppHeader, AppJumbotron, AppFeaturesSection, Wave, AppInstallSection,AppToolsSection,AppPlansSection,AppContact}
 }
 </script>
 
@@ -23,6 +24,7 @@ export default {
     <AppInstallSection />
     <AppToolsSection />
     <AppPlansSection />
+    <AppContact />
   </main>
 
 </template>

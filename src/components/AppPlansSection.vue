@@ -72,7 +72,6 @@ data(){
 <style scoped lang="scss">
 @use '../styles/partials/variables' as *;
 .plans{
-    min-height: 80vh;
     p{
         color: $txt-darkgrey;
     }
