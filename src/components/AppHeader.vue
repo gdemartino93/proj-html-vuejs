@@ -13,6 +13,7 @@ data(){
 </script>
 
 <template>
+    <!-- da fixare header non è responsive -->
   <div class="container">
     <div class="row">
         <div class="col-12 d-flex align-items-center">

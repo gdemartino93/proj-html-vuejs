@@ -4,9 +4,10 @@ import AppJumbotron from './components/AppJumbotron.vue';
 import AppFeaturesSection from './components/AppFeaturesSection.vue';
 import AppInstallSection from './components/AppInstallSection.vue';
 import Wave from './components/Wave.vue';
+import AppToolsSection from './components/AppToolsSection.vue';
 export default {
   name : "App",
-  components : { AppHeader, AppJumbotron, AppFeaturesSection, Wave, AppInstallSection }
+  components : { AppHeader, AppJumbotron, AppFeaturesSection, Wave, AppInstallSection,AppToolsSection}
 }
 </script>
 
@@ -19,7 +20,7 @@ export default {
   <main>
     <AppFeaturesSection />
     <AppInstallSection />
-    
+    <AppToolsSection />
   </main>
 
 </template>
