@@ -7,9 +7,11 @@ import Wave from './components/Wave.vue';
 import AppToolsSection from './components/AppToolsSection.vue';
 import AppPlansSection from './components/AppPlansSection.vue';
 import AppContact from './components/AppContact.vue';
+import LinkFooter from './components/LinkFooter.vue';
+
 export default {
   name : "App",
-  components : { AppHeader, AppJumbotron, AppFeaturesSection, Wave, AppInstallSection,AppToolsSection,AppPlansSection,AppContact}
+  components : { AppHeader, AppJumbotron, AppFeaturesSection, Wave, AppInstallSection,AppToolsSection,AppPlansSection,AppContact,LinkFooter}
 }
 </script>
 
@@ -26,6 +28,9 @@ export default {
     <AppPlansSection />
     <AppContact />
   </main>
+  <footer>
+    <LinkFooter />
+  </footer>
 
 </template>
 

@@ -11,14 +11,14 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faUser, faCircleCheck } from '@fortawesome/free-regular-svg-icons'
-import { faGithub, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
+import { faUser, faCircleCheck,faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faFacebookF, faGithub, faInstagram, faLinkedinIn, faStackOverflow, faTwitterSquare } from '@fortawesome/free-brands-svg-icons'
 import {faLayerGroup, faMagnifyingGlass, faSquare,faMaximize, faExpand, faDesktop, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 
 
 /* add icons to the library */
-library.add(faUser,faStackOverflow,faGithub,faMagnifyingGlass,faSquare,faLayerGroup,faMaximize,faExpand,faDesktop, faCircleCheck,faArrowRight)
+library.add(faUser,faStackOverflow,faGithub,faMagnifyingGlass,faSquare,faLayerGroup,faMaximize,faExpand,faDesktop, faCircleCheck,faArrowRight,faFacebookF,faInstagram,faTwitterSquare,faLinkedinIn,faEnvelope)
 
 
 createApp(App)

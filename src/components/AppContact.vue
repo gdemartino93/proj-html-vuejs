@@ -17,7 +17,7 @@ data(){
         <div class="row">
             <div class="col-6 offset-3 text-center">
                 <h2>Want to be among the first to find out?</h2>
-                <p>Start working with <a href="">Landrick</a> that can provide everything you need to generate  awareness, drive traffic, connect. </p>
+                <p class="my-4">Start working with <a href="">Landrick</a> that can provide everything you need to generate  awareness, drive traffic, connect. </p>
                 <div class="input-group mb-3">
                     <input class="form-control form-control-lg" type="text" placeholder="Email Address" aria-label=".form-control-lg example" id="email">
                     <button class="btn btn-primary" type="button" id="getstarted">Get Started</button>
