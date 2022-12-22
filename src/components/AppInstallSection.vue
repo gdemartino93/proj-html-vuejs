@@ -12,14 +12,14 @@ data(){
 </script>
 
 <template>
-<section class="install">
+<section class="install py-3">
     <div class="container">
         <div class="col-12 text-center">
             <a href="">QuickStart</a>
             <h2 class="my-2">Awesome isn't it? Let's dive in!</h2>
             <p>Start working with <a href="">Landrick</a> that can provide everything you need to generate <br> awareness, drive traffic, connect </p>
             <div class="col-12">
-                <img src="../../public/img/npm.jpg" alt="LandInstall" id="landInstall">
+                <img src="../../public/img/npm.jpg" alt="LandInstall" class="img-fluid">
             </div>
             <div class="d-flex col-10 offset-2 description my-3 ">
                 <div>
@@ -44,7 +44,6 @@ data(){
     div.d-flex:nth-child(5) > div:nth-child(1) {
     margin-left: -16px;
 }
-    min-height: 90vh;
     a{
         color: $txt-blue;
         text-decoration: none;
@@ -54,9 +53,6 @@ data(){
         color: $txt-darkgrey;
         word-wrap: break-word;
         width: 100%
-    }
-    #landInstall{
-        width: 70%;
     }
     .description{
         gap: 50px;
