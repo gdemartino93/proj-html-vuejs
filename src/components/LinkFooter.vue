@@ -93,7 +93,6 @@ export default {
   input{
     background: $bg-inputfooter ;
     border: none;
-    color: red;
     &::placeholder{
       color: $txt-lightgrey;
       font-size: 13px;

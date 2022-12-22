@@ -87,6 +87,11 @@ data(){
       padding: 20px;
       border: 1px solid $border-lightgrey;
       gap: 15px;
+      position: relative;
+      &:hover{
+         position: relative;
+         top: -20px;
+      }
       span{
          color: black;
       }
