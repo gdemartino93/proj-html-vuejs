@@ -8,10 +8,10 @@ import AppToolsSection from './components/AppToolsSection.vue';
 import AppPlansSection from './components/AppPlansSection.vue';
 import AppContact from './components/AppContact.vue';
 import LinkFooter from './components/LinkFooter.vue';
-
+import CreditFooter from './components/CreditFooter.vue';
 export default {
   name : "App",
-  components : { AppHeader, AppJumbotron, AppFeaturesSection, Wave, AppInstallSection,AppToolsSection,AppPlansSection,AppContact,LinkFooter}
+  components : { AppHeader, AppJumbotron, AppFeaturesSection, Wave, AppInstallSection,AppToolsSection,AppPlansSection,AppContact,LinkFooter,CreditFooter}
 }
 </script>
 
@@ -30,6 +30,7 @@ export default {
   </main>
   <footer>
     <LinkFooter />
+    <CreditFooter />
   </footer>
 
 </template>

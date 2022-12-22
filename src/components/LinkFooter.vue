@@ -69,12 +69,13 @@ export default {
 <style lang="scss">
 @use '../styles/partials/variables' as *;
 .footer-link{
+  background: $bg-footer ;
+  padding: 40px;
   .input-group-text{
     background: $bg-inputfooter;
     border: none;
   }
-  background: $bg-footer ;
-  padding: 40px;
+
   .logo-white{
     height: 33.6px;
     width: 60%;
