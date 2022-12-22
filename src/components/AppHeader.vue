@@ -51,7 +51,11 @@ data(){
 </template>
 
 <style scoped lang="scss">
+
 @use '../styles/partials/variables' as *;
+.fa-magnifying-glass {
+     color: grey;
+    }
 .logo{
     img{
         width: 50%;
@@ -70,12 +74,20 @@ li{
     }
 }
 .box{
+
+
+
+
     padding: 10px 10px;
     background: $bg-iconHeader;
     display: flex;
     justify-content: center;
     align-items: center;
     color: $txt-blue;
-    box-shadow: 0 5px 5px 0;
+    box-shadow: 0 3px 3px 0;
+    &:hover{
+        background: $bg-blue;
+        color: white;
+    }
 }
 </style>
